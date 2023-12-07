@@ -31,12 +31,12 @@ h1 {
   color: white;
   background-color: #4c0889;
   border: 5px solid #94177f;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 #extracted-number {
   font-size: 2.5em;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   display: inline-block;
   color: white;
   background-color: #94177f;
