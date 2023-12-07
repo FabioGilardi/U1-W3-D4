@@ -1,0 +1,79 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+#title-section {
+  text-align: center;
+  background-color: #4c0889;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+/* Estrazione del numero */
+
+#extraction-container {
+  text-align: center;
+}
+
+#extraction-container button {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  color: white;
+  background-color: #4c0889;
+  border: 5px solid #94177f;
+  margin-bottom: 25px;
+}
+
+#extracted-number {
+  font-size: 2.5em;
+  margin-bottom: 70px;
+  display: inline-block;
+  color: white;
+  background-color: #94177f;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+#bingo-boxes {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bingo-boxes div {
+  border: 1px solid black;
+  width: 5%;
+  display: inline-block;
+  font-size: 2em;
+  padding: 0.05%;
+  border-collapse: collapse;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.extracted-now {
+  background-color: yellow !important;
+  color: black !important;
+}
+
+.already-extracted {
+  background-color: #4c0889;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
